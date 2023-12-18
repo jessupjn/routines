@@ -1,0 +1,22 @@
+{
+  "name": "routines",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Jackson Jessup <jack@switchboard.xyz>",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/spl-token": "^0.3.9",
+    "@switchboard-xyz/evm.js": "^3.12.36",
+    "@switchboard-xyz/solana.js": "^3.1.5",
+    "@switchboard-xyz/starknet.js": "1.0.0-beta.16",
+    "ethers": "^5.7.2",
+    "starknet": "^5.24.3"
+  },
+  "devDependencies": {
+    "sort-package-json": "^2.6.0"
+  }
+}
